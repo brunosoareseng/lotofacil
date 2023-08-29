@@ -76,5 +76,5 @@ for i in range(10):
 
 saida = pd.DataFrame(values)
 print(saida)
-saida.to_excel("aposta.xlsx")
+saida.to_excel("aposta.xlsx", header=False, index=False)
 
