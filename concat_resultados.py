@@ -19,5 +19,6 @@ df_final = pd.concat(dataframes, ignore_index=True)
 
 # Exibe o DataFrame final
 print(df_final)
-print(df.describe().to_excel('estatistica_res.xlsx'))
+print(df_final.describe()) 
+df_final.describe().to_excel('estatistica_res.xlsx')
 
